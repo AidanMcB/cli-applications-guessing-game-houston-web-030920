@@ -6,7 +6,7 @@ def run_guessing_game
   
   while input != "exit" do
     if input == number
-      puts "You guessed the correct number!"
+      puts "Sorry! You guessed the correct number!"
     else
       puts "The computer guessed #{number}."
     end
